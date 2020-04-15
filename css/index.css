@@ -169,11 +169,11 @@ img {
   margin: 0 auto;
 }
 header .nav-container {
-  padding: 0 20vw;
+  padding: 1vh 17vw;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  border-bottom: dashed #c9c9c9;
+  border-bottom: 2px dashed #C0C0C0;
 }
 header .nav-container h1 {
   align-self: center;
@@ -184,11 +184,14 @@ header .nav-container nav {
   justify-content: space-between;
 }
 header .nav-container nav a {
-  padding: 1.5vw;
+  padding: 1vw;
+  margin-left: 1vw;
   text-decoration: none;
+  color: #212529;
   font-size: 1.5rem;
 }
 header img {
+  display: block;
   margin: auto;
 }
 .footer {
@@ -247,4 +250,17 @@ header img {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  padding: 1.25rem;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.home .content-pick .destination .btn:hover {
+  transform: scale(1.05);
 }

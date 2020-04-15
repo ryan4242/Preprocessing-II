@@ -2,12 +2,11 @@
 header {
 
     .nav-container {
-        padding: 0 20vw;
+        padding: 1vh 17vw;
         margin: auto;
         display: flex;
         justify-content: space-between;
-        border-bottom: dashed #c9c9c9;
-        
+        border-bottom: 2px dashed @navigation-border;
         h1 {
             align-self: center;
         }
@@ -18,14 +17,17 @@ header {
             justify-content: space-between;
 
             a {
-                padding: 1.5vw;
+                padding: 1vw;
+                margin-left: 1vw;
                 text-decoration: none;
+                color: @shark;
                 font-size: 1.5rem;
             }
         }
     }
 
     img {
+        display: block;
         margin: auto;
     }
 
